@@ -1,10 +1,11 @@
 import { React, useState } from "react";
+import { apiUrl } from "../config";
 
 const Admincrud = () => {
   const [name, setname] = useState("");
   const [link, setlink] = useState("");
   const handleadd = async () => {
-    const response = await fetch("http://localhost:5000/api/meetinglinks/add", {
+    const response = await fetch(`${apiUrl}/meetinglinks/add`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -19,7 +20,7 @@ const Admincrud = () => {
     alert("added");
   };
   const handledelete = async () => {
-    const response = await fetch("http://localhost:5000/api/meetinglinks/delete", {
+    const response = await fetch(`${apiUrl}/meetinglinks/delete`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

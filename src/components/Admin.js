@@ -1,10 +1,11 @@
 import {React,useState,} from "react";
 import { useNavigate } from "react-router-dom";
+import { apiUrl } from "../config";
 const Admin = () => {
     const [email, setemail] = useState("")
     const [password, setpassword] = useState("")
     const navigate = useNavigate();
-    let url = "http://localhost:5000/api/auth/admin/login";
+    let url = `${apiUrl}/auth/admin/login`;
     const handleclick= async()=>{
       const response = await fetch(url, {
         method: "POST",

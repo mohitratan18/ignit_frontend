@@ -1,9 +1,10 @@
 import {React,useEffect, useState} from 'react'
+import { apiUrl } from '../config'
 
 
 const Meetings = () => {
     const [data, setdata] = useState([])
-    let url = "http://localhost:5000/api/meetinglinks/fetch";
+    let url = `${apiUrl}/meetinglinks/fetch`;
     const getlinks = async()=>{
       const response = await fetch(url, {
         method: "GET",
