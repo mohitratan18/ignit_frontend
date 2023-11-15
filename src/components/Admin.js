@@ -48,13 +48,6 @@ const Admin = () => {
               onChange={e => setpassword(e.target.value)}
             />
           </div>
-          <div className="form-group form-check">
-            <input
-              type="checkbox"
-              className="form-check-input"
-              id="exampleCheck1"
-            />
-          </div>
           <button type="button" className="btn btn-primary" onClick={handleclick}>
             Submit
           </button>

@@ -29,7 +29,6 @@ const Meetings = () => {
             return (
               <div className="bg-white w-[500px] h-[80px] flex flex-col justify-center items-center rounded-full mb-3">
                 <h1 className='text-2xl font-bold'>{name}</h1>
-                {/* <a href={src} className=''>Click to Navigate</a> */}
                 <p>{src}</p>
               </div>
             );

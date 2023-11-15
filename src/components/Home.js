@@ -3,6 +3,7 @@ import img1 from "../Assests/WhatsApp_Image_2023-11-10_at_10.16.32_AM-removebg-p
 import img2 from "../Assests/effective-meetings.jpg"
 import img3 from '../Assests/istockphoto-1286378180-612x612.jpg'
 import img4 from "../Assests/depositphotos_52175409-stock-photo-female-hand-touching-contact-us.jpg"
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -33,9 +34,9 @@ const Home = () => {
                 <p className="card-text">
                   Click on the links to interact with us...
                 </p>
-                <a href="/meetings" className="btn btn-primary">
+                <Link to="/meetings" className="btn btn-primary">
                   Open
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -50,9 +51,9 @@ const Home = () => {
               <div className="card-body">
                 <h5 className="card-title">About</h5>
                 <p className="card-text">Click to know more about us...</p>
-                <a href= "/aboutus" className="btn btn-primary">
+                <Link to= "/aboutus" className="btn btn-primary">
                   Open
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -67,9 +68,9 @@ const Home = () => {
               <div className="card-body">
                 <h5 className="card-title">Contact us</h5>
                 <p className="card-text">For any queries contact us...</p>
-                <a href="/contactus" className="btn btn-primary">
+                <Link to="/contactus" className="btn btn-primary">
                   Open
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -124,6 +125,7 @@ const Home = () => {
             </div>
           </div>
         </div>
+      <div style={{width:"100%",textAlign:"end",transform:"translateX(-75px)"}}><Link  to="/admin" >Admin</Link></div>
       </div>
     </div>
   );
