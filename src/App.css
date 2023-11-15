@@ -1,0 +1,189 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+
+body {
+  background-image: url("./Assests/11AD482C-D8A9-4CBD-8D5F-2EE0449847E5.jpg");
+  background-repeat: no-repeat;
+  width: 1200px;
+  background-size: cover;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.header .logo img {
+  width: 300px;
+  height: auto;
+  margin-left: 330px;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  position: absolute;
+  padding-left: 400px;
+}
+
+.card {
+  width: 200px;
+  margin: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  transform: translateY(-5px);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.col:hover {
+  transform: translateY(-5px);
+}
+
+.footer {
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 250px;
+  align-items: end;
+}
+
+.footer .row {
+  position: relative;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* -------responsive index page ------- */
+
+@media (min-width: 1000px) {
+  .header .logo img {
+    width: 200px;
+    height: auto;
+    /* margin-left: 200px; */
+  }
+
+  .row {
+    align-items: center;
+    /* left: 200px; */
+  }
+}
+
+@media (min-width: 768px) and (max-width: 959px) {
+  .row {
+    align-items: center;
+    padding-left: 0px;
+  }
+
+  body {
+    background-image: none;
+  }
+
+  .body {
+    background: radial-gradient(#caf0f8, #6b9fec);
+    height: 1100px;
+  }
+
+  .header .logo img {
+    width: 300px;
+    height: auto;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    left: -100px;
+  }
+
+  .footer {
+    position: absolute;
+    margin-top: 700px;
+    align-items: center;
+  }
+
+  .footer .row {
+    align-items: center;
+    padding-left: 150px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+  .body {
+    background: radial-gradient(#caf0f8, #6b9fec);
+    height: 1500px;
+  }
+
+  .header .logo img {
+    width: 300px;
+    height: auto;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    left: -100px;
+  }
+
+  .card {
+    width: 250px;
+    margin: 10px;
+    height: auto;
+  }
+  .footer .row {
+    align-items: center;
+    padding-left: 350px;
+  }
+
+  .row {
+    position: relative;
+    left: -400px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+  .body {
+    background: radial-gradient(#caf0f8, #72a7f7);
+    height: 1800px;
+  }
+
+  .header .logo img {
+    width: 500px;
+    height: auto;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    left: -50px;
+  }
+
+  .card {
+    width: 300px;
+    margin: 10px;
+    height: auto;
+  }
+
+  .card img {
+    height: 200px;
+  }
+
+  .footer {
+    top: 1250px;
+  }
+
+  .footer .row {
+    gap: 17px;
+    right: 150px;
+  }
+}
+.newone{
+  background: radial-gradient(#caf0f8,#6b9fec);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.Meeting{
+  background: radial-gradient(#caf0f8,#6b9fec);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
