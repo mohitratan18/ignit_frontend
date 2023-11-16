@@ -24,7 +24,6 @@ body {
 .row {
   display: flex;
   position: absolute;
-  padding-left: 400px;
 }
 
 .card {
@@ -110,12 +109,11 @@ body {
 @media (min-width: 577px) and (max-width: 767px) {
   .body {
     background: radial-gradient(#caf0f8, #6b9fec);
-    height: 1500px;
+    
   }
 
   .header .logo img {
     width: 300px;
-    height: auto;
     position: relative;
     align-items: center;
     align-content: center;
@@ -124,7 +122,6 @@ body {
   .card {
     width: 250px;
     margin: 10px;
-    height: auto;
   }
   .footer .row {
     align-items: center;
