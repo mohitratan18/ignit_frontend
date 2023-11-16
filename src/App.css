@@ -90,7 +90,6 @@ body {
   .header .logo img {
     width: 300px;
     height: auto;
-    position: relative;
     align-items: center;
     justify-content:center;
     display:flex;
@@ -120,7 +119,6 @@ body {
     position: relative;
     align-items: center;
     align-content: center;
-    left: -100px;
   }
 
   .card {
