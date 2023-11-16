@@ -9,7 +9,12 @@ const TeamMember = ({ imgSrc, alt, name, role, bio }) => (
     <img
       src={imgSrc}
       alt={alt}
-      className="team-member-img rounded-full w-[300px] h-[120px] one1" 
+      className="team-member-img rounded-full w-[200px] one1"
+      style={{
+        width:"350px",
+        height:"250px",
+        borderRadius:"50%"
+      }} 
     />
     <div>
       <h4 className="p-2 text-xl font-bold">{role}</h4>
@@ -26,7 +31,7 @@ const Aboutus = () => (
     <section className="about-section">
       <h2 className="text-2xl font-bold p-2">Welcome </h2>
       <p>
-        We are dedicated to helping students navigate the challenges of academic
+        We are dedicated to helping students and others navigate the challenges of academic
         life, providing counseling services, and fostering skill development for
         a brighter future. We are here to support you on your journey to
         personal and academic success. Our team of experienced counselors and
