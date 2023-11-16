@@ -6,12 +6,11 @@
 body {
   background-image: url("./Assests/11AD482C-D8A9-4CBD-8D5F-2EE0449847E5.jpg");
   background-repeat: no-repeat;
-  width: 1200px;
+  width: 100%;
   background-size: cover;
 }
 
 .header {
-  position: relative;
   display: flex;
   justify-content: center;
 }
@@ -19,7 +18,6 @@ body {
 .header .logo img {
   width: 300px;
   height: auto;
-  margin-left: 330px;
   justify-content: center;
 }
 
@@ -94,8 +92,8 @@ body {
     height: auto;
     position: relative;
     align-items: center;
-    align-content: center;
-    left: -100px;
+    justify-content:center;
+    display:flex;
   }
 
   .footer {
