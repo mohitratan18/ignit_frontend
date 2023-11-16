@@ -7,6 +7,7 @@ body {
   background-image: url("./Assests/11AD482C-D8A9-4CBD-8D5F-2EE0449847E5.jpg");
   background-repeat: no-repeat;
   width: 100%;
+  height:100%;
   background-size: cover;
 }
 
@@ -41,19 +42,14 @@ body {
 }
 
 .footer {
-  position: absolute;
-  margin-top: 400px;
-  margin-left: 250px;
-  align-items: end;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer .row {
   position: relative;
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  margin-top: 10px;
 }
 
 /* -------responsive index page ------- */
@@ -96,7 +92,6 @@ body {
 
   .footer {
     position: absolute;
-    margin-top: 700px;
     align-items: center;
   }
 
@@ -137,7 +132,6 @@ body {
 @media (min-width: 320px) and (max-width: 576px) {
   .body {
     background: radial-gradient(#caf0f8, #72a7f7);
-    height: 1800px;
   }
 
   .header .logo img {
