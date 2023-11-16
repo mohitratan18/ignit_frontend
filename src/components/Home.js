@@ -71,9 +71,9 @@ const Home = () => {
 
         {/* <!-- ------footer------ --> */}
 
-        <div className="footer lg:absolute lg:bottom-5">
+        <div className="footer lg:absolute lg:bottom-2">
           <div className="text-center flex flex-col gap-5">
-                <h3> Connect with Us..</h3>
+            <h3 className="text-2xl"> Connect with Us..</h3>
             <div className="flex justify-center gap-10">
               <div className="">
                 <Link to="https://instagram.com/ignit_power_?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==">
@@ -118,6 +118,7 @@ const Home = () => {
                 </Link>
               </div>
             </div>
+            <Link className="" to={'/admin'}>Admin</Link>
           </div>
         </div>
       </div>
