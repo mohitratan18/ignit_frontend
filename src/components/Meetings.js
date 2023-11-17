@@ -1,5 +1,6 @@
 import {React,useEffect, useState} from 'react'
 import { apiUrl } from '../config'
+import { Link } from 'react-router-dom';
 
 
 const Meetings = () => {
@@ -29,7 +30,8 @@ const Meetings = () => {
             return (
               <div className="bg-white w-[500px] h-[80px] flex flex-col justify-center items-center rounded-full mb-3">
                 <h1 className='text-2xl font-bold'>{name}</h1>
-                <p>{src}</p>
+                {/* <p>{src}</p> */}
+                <Link to={src} target='_blank'>click to navigate</Link>
               </div>
             );
           })}

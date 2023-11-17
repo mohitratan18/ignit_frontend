@@ -16,7 +16,7 @@ const Admincrud = () => {
       }),
     });
     const json = await response.json();
-    console.log(json)
+    console.log(json);
     alert("added");
   };
   const handledelete = async () => {
@@ -35,6 +35,7 @@ const Admincrud = () => {
   };
   return (
     <div>
+      <h1 className="text-3xl">Please add https:// in front of the link</h1>
       <form>
         <div className="mb-3">
           <label for="exampleInputEmail1" className="form-label">
@@ -63,7 +64,11 @@ const Admincrud = () => {
           />
         </div>
         <div className="flex">
-          <button type="button" className="btn btn-primary text-black" onClick={handleadd}>
+          <button
+            type="button"
+            className="btn btn-primary text-black"
+            onClick={handleadd}
+          >
             ADD
           </button>
           <button
