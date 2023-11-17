@@ -49,7 +49,12 @@ const Aboutus = () => (
         facing difficulties, and empower individuals with life skills to
         navigate the complexities of life successfully.
       </p>
-
+      <h2 className="text-2xl p-2 font-bold">Our Vision</h2>
+      <p>
+        To Inspire!!!
+        To Educate!!!
+        To Empower!!!
+      </p>
       <div className="mem">
         <h2 className="text-2xl p-5 font-bold">Meet the Team</h2>
 
