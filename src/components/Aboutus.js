@@ -62,7 +62,7 @@ const Aboutus = () => (
           imgSrc={img1}
           alt="Team Member 1"
           name="Bhargavi Vadlapatla"
-          role="M.Tech, Student Counsellor"
+          role="M.Tech,MA(psychology), Student Counsellor"
           bio="Bhargavi, a distinguished professional with M.Tech Background worked as a student counsellor providing high-quality services to students, aiming to equip them with the knowledge and insights necessary to make well-informed career decisions that align with their individual decisions, interests, and talents. Beyond career guidance extends to enhancing interpersonal relationships and nurturing skills for a happier and more resilient life. Approach is rooted in evidence-based psychological principles, ensuring that clients not only discover their potential but also acquire the tools to thrive in an ever-changing world. With my guidance, individuals can chart a path to personal and professional fulfillment."
         />
 
