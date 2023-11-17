@@ -1,6 +1,6 @@
 import React from "react";
 import "../Assests/Aboutus.css";
-import img2 from "../Assests/img1.jfif";
+import img2 from "../Assests/img1.jpeg";
 import img1 from "../Assests/img2.jpeg";
 import img3 from "../Assests/img3.jfif";
 
