@@ -17,8 +17,8 @@ const TeamMember = ({ imgSrc, alt, name, role, bio }) => (
       }} 
     />
     <div>
-      <h4 className="p-2 text-xl font-bold">{role}</h4>
-      <h3 className="p-2 text-xl font-bold">{name}</h3>
+      <h4 className="p-2 text-xl font-bold">{name}</h4>
+      <h3 className="p-2 text-xl font-bold">{role}</h3>
       <p className="p-2 text-xl">{bio}</p>
     </div>
   </div>
