@@ -1,4 +1,4 @@
-// import "./App.css";
+import "./App.css";
 import Contactus from "./components/Contactus";
 import Home from "./components/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
