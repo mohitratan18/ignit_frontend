@@ -6,6 +6,7 @@ import Aboutus from "./components/Aboutus";
 import Meetings from "./components/Meetings";
 import Admin from "./components/Admin";
 import Admindashboard from "./components/Admindashboard";
+import Aboutall from "./components/Aboutall";
 function App() {
   return (
     <BrowserRouter>
@@ -16,6 +17,7 @@ function App() {
       <Route exact path="/meetings" element={<Meetings/>} ></Route>
       <Route exact path="/admin" element={<Admin/>} ></Route>
       <Route exact path="/dashboard" element={<Admindashboard/>} ></Route>
+      <Route exact path="/aboutall" element={<Aboutall/>}></Route>
     </Routes>
     </BrowserRouter>
   );
