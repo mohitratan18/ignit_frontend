@@ -23,18 +23,26 @@ const Aboutall = () => {
       <div className={Styles.item}>
         <img src={img1} alt="" className={Styles.image} />
         <h4>
-        This is Amulya Rajesh with a unique background of an Advocate and a Relationship Counsellor where I can navigate complex and sensitive situations for my clients.I can address the intersection of law and mental health involving Domestic Violence, Substance Abuse and Mental Health Issues and ensure the well-being of my clients by guiding them to lead a hurdle free and a happy life.
+          This is Amulya Rajesh with a unique background of an Advocate and a
+          Relationship Counsellor where I can navigate complex and sensitive
+          situations for my clients.I can address the intersection of law and
+          mental health involving Domestic Violence, Substance Abuse and Mental
+          Health Issues and ensure the well-being of my clients by guiding them
+          to lead a hurdle free and a happy life.
         </h4>
       </div>
       <div className={Styles.item}>
         <img src={img3} alt="" className={Styles.image} />
         <h4>
-          I am a dedicated professional with a diverse educational background,
-          holding both an MBA and an MA in Psychology. As a seasoned
-          psychologist, my expertise lies in navigating the complexities of the
-          human mind. My strength lies in handling challenges with unwavering
-          patience, ensuring a compassionate and effective approach to
-          psychological well-being.
+          I feel glad to share that i have a extent background experience in
+          teaching across schools and colleges, I bring a wealth of knowledge
+          and passion to education. As a life skills and career coach, I extend
+          personalized counseling services to students, guiding them on a path
+          of self-discovery and informed career choices. Committed to making a
+          positive impact, I actively contribute to the empowerment of women and
+          adolescent girls. Through a blend of teaching, counseling, and
+          advocacy, I aspire to foster growth and resilience in individuals.
+          Let's embark on this journey together!
         </h4>
       </div>
       <div className={Styles.item}>
