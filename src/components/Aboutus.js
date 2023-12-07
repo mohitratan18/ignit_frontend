@@ -6,15 +6,51 @@ import img2 from "../Assests/img2.jpeg";
 import img3 from "../Assests/img3.jfif";
 import img4 from "../Assests/img4.jpeg";
 import img5 from "../Assests/img5.jpeg";
-import { useNavigate } from "react-router-dom";const Aboutus = () => {
+import services from "../Assests/services.jpeg";
+import { useNavigate } from "react-router-dom";
+const Aboutus = () => {
   const navigate = useNavigate();
-  const handleclick = ()=>{
-    navigate('/aboutall');
-  }
+  const handleclick = () => {
+    navigate("/aboutall");
+  };
   return (
     <div className={style.container}>
       <h1>ABOUT US</h1>
-
+      <div className={style.mission}>
+        <h1> Our Mission :</h1>
+        <span className={style.missionmatter}>
+          I feel glad to share that i have a rich background experience in
+          teaching across schools and colleges, I bring a wealth of knowledge
+          and passion to education. As a life skills and career coach, I extend
+          personalized counseling services to students, guiding them on a path
+          of self-discovery and informed career choices. Committed to making a
+          positive impact, I actively contribute to the empowerment of women and
+          adolescent girls. Through a blend of teaching, counseling, and
+          advocacy, I aspire to foster growth and resilience in individuals.
+          Let's embark on this journey together!
+          <br />
+          Empowering women to recognize, embrace, and assert their rights,
+          fostering independence through our expert Counsellings and inspiring a
+          transformative perspective on life's possibilities.
+        </span>
+      </div>
+      <div className={style.mission}>
+        <h1> Our Vission :</h1>
+        <span className={style.missionmatter}>
+          "Life Skills Matter! Learning essential life skills isn't just a
+          lesson for today, it's a roadmap for a successful tomorrow. From
+          students to seasoned individuals, mastering communication,
+          problem-solving, resilience, adaptability etc etc are the key to
+          navigate one's life's journey with confidence and success. Start
+          today, empower your tomorrows!"
+        </span>
+      </div>
+      <div className={style.services}>
+        <h1>Our Services</h1>
+        <img src={services} alt="" className={style.serviceimg} />
+      </div>
+      <h1>Our Members</h1>
+      
       <div className={style.one}>
         <div className={style.subimg}>
           <img className={style.image} src={img5} alt="" />
@@ -22,7 +58,11 @@ import { useNavigate } from "react-router-dom";const Aboutus = () => {
           <h4>MBA,MA,(PSYCHOLOGY)</h4>
           <h4>COUNSELLING PSYCHOLOGIST</h4>
           <br />
-          <button type="button" className="btn btn-primary text-black " onClick={handleclick}>
+          <button
+            type="button"
+            className="btn btn-primary text-black "
+            onClick={handleclick}
+          >
             Read more
           </button>
         </div>
@@ -39,7 +79,11 @@ import { useNavigate } from "react-router-dom";const Aboutus = () => {
             <h4>BA,LLM,ACS</h4>
             <h4>ADVOCATE</h4>
             <h4>RELATIONSHIP COUNSELLOR</h4> <br />
-            <button type="button" className="btn btn-primary text-black " onClick={handleclick}>
+            <button
+              type="button"
+              className="btn btn-primary text-black "
+              onClick={handleclick}
+            >
               Read more
             </button>
           </div>
@@ -58,7 +102,11 @@ import { useNavigate } from "react-router-dom";const Aboutus = () => {
             <h4>Lifeskills coach</h4>
             <h4>Women Empower coach</h4>
             <br />
-            <button type="button" className="btn btn-primary text-black " onClick={handleclick}>
+            <button
+              type="button"
+              className="btn btn-primary text-black "
+              onClick={handleclick}
+            >
               Read more
             </button>
           </div>
@@ -78,7 +126,11 @@ import { useNavigate } from "react-router-dom";const Aboutus = () => {
             <h4>M.Tech</h4>
             <h4>Student counsellor</h4>
             <br />
-            <button type="button" className="btn btn-primary text-black m-{3}" onClick={handleclick}>
+            <button
+              type="button"
+              className="btn btn-primary text-black m-{3}"
+              onClick={handleclick}
+            >
               Read more
             </button>
           </div>
@@ -95,7 +147,11 @@ import { useNavigate } from "react-router-dom";const Aboutus = () => {
             <h4>B.com,DCGC</h4>
             <h4>STUDENT COUNSELLOR</h4>
             <br />
-            <button type="button" className="btn btn-primary text-black " onClick={handleclick}>
+            <button
+              type="button"
+              className="btn btn-primary text-black "
+              onClick={handleclick}
+            >
               Read more
             </button>
           </div>
