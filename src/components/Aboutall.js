@@ -36,9 +36,9 @@ const Aboutall = () => {
         <h4>
           I feel glad to share that i have a extent background experience in
           teaching across schools and colleges, I bring a wealth of knowledge
-          and passion to education. As a life skills and career coach, I extend
+          and passion to education. As a life skills and Women Empowerment coach, I extend
           personalized counseling services to students, guiding them on a path
-          of self-discovery and informed career choices. Committed to making a
+          of self-discovery and motivate them. Committed to making a
           positive impact, I actively contribute to the empowerment of women and
           adolescent girls. Through a blend of teaching, counseling, and
           advocacy, I aspire to foster growth and resilience in individuals.
@@ -48,16 +48,13 @@ const Aboutall = () => {
       <div className={Styles.item}>
         <img src={img2} alt="" className={Styles.image} />
         <h4>
-          Bhargavi , a distinguished teaching professional with M.Tech
+          Bhargavi, a distinguished teaching professional with M.Tech
           Background worked as student counsellor providing high quality
-          services to students , aiming to equip them with the knowledge and
-          insights necessary to make well - informed career decisions that align
-          with their individual decisions, interests and talents . beyond career
-          guidance extends to enhancing interpersonal relationships and
-          nurturing skills for happier and more resilient life.Approach is
-          rooted in evidence- based psychological principles , ensuring that
+          services to students. Beyond career guidance extends to enhancing interpersonal
+           relationships and nurturing skills for happier and more resilient life.
+           Approach is rooted in evidence- based psychological principles , ensuring that
           clients not only discover their potential but also acquire the tools
-          to..thrive in an ever-changing world . with my guidance individuals
+          to..thrive in an ever-changing world. With my guidance individuals
           can chart a path to personal and professional fuillfillment
         </h4>
       </div>

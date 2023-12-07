@@ -1,9 +1,9 @@
 import React from "react";
 // import img1 from "../Assests/WhatsApp_Image_2023-11-10_at_10.16.32_AM-removebg-preview.png"
-import img1 from "../Assests/logo-main.png"
-import img2 from "../Assests/effective-meetings.jpg"
-import img3 from '../Assests/istockphoto-1286378180-612x612.jpg'
-import img4 from "../Assests/depositphotos_52175409-stock-photo-female-hand-touching-contact-us.jpg"
+import img1 from "../Assests/logo-main.png";
+import img2 from "../Assests/effective-meetings.jpg";
+import img3 from "../Assests/istockphoto-1286378180-612x612.jpg";
+import img4 from "../Assests/depositphotos_52175409-stock-photo-female-hand-touching-contact-us.jpg";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -12,24 +12,26 @@ const Home = () => {
       <div className="body">
         <div className="header">
           <div className="logo">
-            <img
-              src={img1}
-              alt=""
-            />
+            <img src={img1} alt="" />
           </div>
         </div>
 
         {/* <!-- ------main section------ --> */}
         <div className="flex gap-10 lg:justify-center items-center w-full flex-col lg:flex-row">
           <div className="card">
-            <img
-              src={img2}
-              className="card-img-top"
-              height="132.5"
-              alt="..."
-            />
+            <img src={img3} className="card-img-top" alt="..." height="132.5" />
             <div className="card-body">
-              <h5 className="card-title">Meetings</h5>
+              <h2 className="card-title font-extrabold">About</h2>
+              <p className="card-text">Click to know more about us...</p>
+              <Link to="/aboutus" className="btn btn-primary">
+                Open
+              </Link>
+            </div>
+          </div>
+          <div className="card">
+            <img src={img2} className="card-img-top" height="132.5" alt="..." />
+            <div className="card-body">
+              <h2 className="card-title font-extrabold">Meetings</h2>
               <p className="card-text">
                 Click on the links to interact with us...
               </p>
@@ -38,30 +40,11 @@ const Home = () => {
               </Link>
             </div>
           </div>
+
           <div className="card">
-            <img
-              src={img3}
-              className="card-img-top"
-              alt="..."
-              height="132.5"
-            />
+            <img src={img4} height="132.5" className="card-img-top" alt="..." />
             <div className="card-body">
-              <h5 className="card-title">About</h5>
-              <p className="card-text">Click to know more about us...</p>
-              <Link to="/aboutus" className="btn btn-primary">
-                Open
-              </Link>
-            </div>
-          </div>
-          <div className="card">
-            <img
-              src={img4}
-              height="132.5"
-              className="card-img-top"
-              alt="..."
-            />
-            <div className="card-body">
-              <h5 className="card-title">Contact us</h5>
+              <h2 className="card-title font-extrabold">Contact us</h2>
               <p className="card-text">For any queries contact us...</p>
               <Link to="/contactus" className="btn btn-primary">
                 Open
@@ -119,7 +102,9 @@ const Home = () => {
                 </Link>
               </div>
             </div>
-            <Link className="" to={'/admin'}>Admin</Link>
+            <Link className="" to={"/admin"}>
+              Admin
+            </Link>
           </div>
         </div>
       </div>
