@@ -81,11 +81,15 @@ h1{
     flex-direction: column;
     flex-wrap: wrap;
     color: black;
-    margin: 1.5rem;
+    margin: 1rem;
 }
 .faq{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 90%;
+}
+.question{
+    margin-left: 1.2rem;
 }
