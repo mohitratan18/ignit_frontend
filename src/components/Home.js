@@ -1,5 +1,4 @@
 import React from "react";
-// import img1 from "../Assests/WhatsApp_Image_2023-11-10_at_10.16.32_AM-removebg-preview.png"
 import img1 from "../Assests/logo.png";
 import img2 from "../Assests/effective-meetings.jpg";
 import img3 from "../Assests/istockphoto-1286378180-612x612.jpg";

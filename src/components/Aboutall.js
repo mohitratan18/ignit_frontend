@@ -4,21 +4,38 @@ import img1 from "../Assests/img1.jpeg";
 import img2 from "../Assests/img2.jpeg";
 import img3 from "../Assests/img3.jfif";
 import img4 from "../Assests/img4.jpeg";
-import img5 from "../Assests/img5.jpeg";
+// import img5 from "../Assests/img5.jpeg";
 
 const Aboutall = () => {
   return (
     <div className={Styles.container}>
       <div className={Styles.item}>
-        <img src={img5} alt="" className={Styles.image} />
-        <p>
-          I am a dedicated professional with a diverse educational background,
-          holding both an MBA and an MA in Psychology. As a seasoned
-          psychologist, my expertise lies in navigating the complexities of the
-          human mind. My strength lies in handling challenges with unwavering
-          patience, ensuring a compassionate and effective approach to
-          psychological well-being.
-        </p>
+        <img src={img3} alt="" className={Styles.image} />
+        <h4>
+          I feel glad to share that i have a extent background experience in
+          teaching across schools and colleges, I bring a wealth of knowledge
+          and passion to education. As a life skills and Women Empowerment
+          coach, I extend personalized counseling services to students, guiding
+          them on a path of self-discovery and motivate them. Committed to
+          making a positive impact, I actively contribute to the empowerment of
+          women and adolescent girls. Through a blend of teaching, counseling,
+          and advocacy, I aspire to foster growth and resilience in individuals.
+          Let's embark on this journey together!
+        </h4>
+      </div>
+      <div className={Styles.item}>
+        <img src={img2} alt="" className={Styles.image} />
+        <h4>
+          Bhargavi, a distinguished teaching professional with M.Tech Background
+          worked as student counsellor providing high quality services to
+          students. Beyond career guidance extends to enhancing interpersonal
+          relationships and nurturing skills for happier and more resilient
+          life. Approach is rooted in evidence- based psychological principles ,
+          ensuring that clients not only discover their potential but also
+          acquire the tools to..thrive in an ever-changing world. With my
+          guidance individuals can chart a path to personal and professional
+          fuillfillment
+        </h4>
       </div>
       <div className={Styles.item}>
         <img src={img1} alt="" className={Styles.image} />
@@ -29,33 +46,6 @@ const Aboutall = () => {
           mental health involving Domestic Violence, Substance Abuse and Mental
           Health Issues and ensure the well-being of my clients by guiding them
           to lead a hurdle free and a happy life.
-        </h4>
-      </div>
-      <div className={Styles.item}>
-        <img src={img3} alt="" className={Styles.image} />
-        <h4>
-          I feel glad to share that i have a extent background experience in
-          teaching across schools and colleges, I bring a wealth of knowledge
-          and passion to education. As a life skills and Women Empowerment coach, I extend
-          personalized counseling services to students, guiding them on a path
-          of self-discovery and motivate them. Committed to making a
-          positive impact, I actively contribute to the empowerment of women and
-          adolescent girls. Through a blend of teaching, counseling, and
-          advocacy, I aspire to foster growth and resilience in individuals.
-          Let's embark on this journey together!
-        </h4>
-      </div>
-      <div className={Styles.item}>
-        <img src={img2} alt="" className={Styles.image} />
-        <h4>
-          Bhargavi, a distinguished teaching professional with M.Tech
-          Background worked as student counsellor providing high quality
-          services to students. Beyond career guidance extends to enhancing interpersonal
-           relationships and nurturing skills for happier and more resilient life.
-           Approach is rooted in evidence- based psychological principles , ensuring that
-          clients not only discover their potential but also acquire the tools
-          to..thrive in an ever-changing world. With my guidance individuals
-          can chart a path to personal and professional fuillfillment
         </h4>
       </div>
       <div className={Styles.item}>

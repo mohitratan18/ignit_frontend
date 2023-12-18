@@ -6,7 +6,7 @@ import img2 from "../Assests/img2.jpeg";
 import img3 from "../Assests/img3.jfif";
 import img4 from "../Assests/img4.jpeg";
 //import img5 from "../Assests/img5.jpeg";
-import services from "../Assests/services.jpeg";
+// import services from "../Assests/services.jpeg";
 import { useNavigate } from "react-router-dom";
 const Aboutus = () => {
   const navigate = useNavigate();
@@ -36,7 +36,20 @@ const Aboutus = () => {
       </div>
       <div className={style.services}>
         <h1>Our Services</h1>
-        <img src={services} alt="" className={style.serviceimg} />
+        <ol className={style.list}> 
+          <li>* Individual Counselling</li>
+          <li>* Premarital Counselling</li>
+          <li>* Couple Counselling</li>
+          <li>* Family Counselling</li>
+          <li>* Carrer Counselling</li>
+          <li>* Education Counselling</li>
+          <li>* Adolesent Counselling</li>
+          <li>* Ageing Counselling</li>
+          <li>* Infertility Counselling</li>
+          <li>* De-Addiction Counselling</li>
+          <li>* Rehabilitation Counselling</li>
+        </ol>
+        {/* <img src={services} alt="" className={style.serviceimg} /> */}
       </div>
 
       <h1>Our Team</h1>
@@ -101,7 +114,8 @@ const Aboutus = () => {
           </div>
           <span className={style.matter}>
             * Pre-Maratial Counselling <br /> * Relationship issues <br /> *
-            Marital Concerns <br />* Couple Therapy <br /> * Lifestyle Issues
+            Marital Concerns <br />* Couple counselling <br /> * Lifestyle
+            Issues
           </span>
         </div>
 
@@ -128,42 +142,45 @@ const Aboutus = () => {
       <div className={style.faq}>
         <h1 className="text-black">FAQ's</h1>
         <div className={style.faqitem}>
-          <h1 className={style.question}>Can I get psychological counselling online?</h1>
+          <h1 className={style.question}>Can I get counselling online?</h1>
           <span className="m-3">
-            Yes, you can get psychological counselling online In India and from
-            any part of the world with Ignit.com.Online psychological
-            counselling allows you to take counselling from your therapist from
-            the comfort of your home and at your convenient time.Ignit
-            offers quality psychological counselling online by trained and
-            experienced listed therapists which is as effective as face- to -
-            face counselling.
+            Yes, you can get counselling online In India and from any part of
+            the world with Ignit.com.Online counselling allows you to take
+            counselling from your therapist from the comfort of your home and at
+            your convenient time.Ignit offers quality counselling online by
+            trained and experienced listed therapists which is as effective as
+            face- to - face counselling.
           </span>
-          <h1 className={style.question}>What are the advantages of online counseling?</h1>
+          <h1 className={style.question}>
+            What are the advantages of online counselling?
+          </h1>
           <span className="m-3">
-            There are various advantages when it comes to Online Counseling.
+            There are various advantages when it comes to Online counselling.
             Accessibility is one of the primary advantages. Because the entire
-            setup is online, one can access counseling from their home. Online
+            setup is online, one can access counselling from their home. Online
             counselling also helps with a lot of flexibility when it comes to
             the timing of an appointment which you can choose as per your
             convenience by choosing the mode of Psychological Counselling, be it
-            call, video call or chat. Online Counseling is also advantageous in
+            call, video call or chat. Online counselling is also advantageous in
             terms of finances because you can save the travel & inconvenience
             costs. You can start your online counselling with IGNIT The most
-            trusted and rated online therapy service provider in India.
+            trusted and rated online counselling service provider in India.
           </span>
-          <h1 className={style.question}>Who needs Online counselling and therapy?</h1>
+          <h1 className={style.question}>Who needs Online counselling ?</h1>
           <span className="m-3">
-            Online therapy is for someone who is undergoing discomfort, stress,
-            anxiety, depression, insomnia or emotional health challenges due to
-            personal, professional or environmental issues such as Covid 19,
-            climate change, or even inflation issues etc. Online therapy is also
-            for people, who are unable to continue with traditional online
-            therapy sessions. Ignit not only helps people heal from the
-            above mentioned issues but also helps people to thrive in life with
-            counselling for confidence, motivation, professional growth and
+            Online counselling is for someone who is undergoing discomfort,
+            stress, anxiety, depression, insomnia or emotional health challenges
+            due to personal, professional or environmental issues such as Covid
+            19, climate change, or even inflation issues etc. Online counselling
+            is also for people, who are unable to continue with traditional
+            online counselling sessions. Ignit not only helps people heal from
+            the above mentioned issues but also helps people to thrive in life
+            with counselling for confidence, motivation, professional growth and
             fulfilling relationships.
           </span>
-          <h1 className={style.question}>How do I choose an online counsellor? </h1>
+          <h1 className={style.question}>
+            How do I choose an online counsellor?{" "}
+          </h1>
           <span className="m-3">
             Asking a few questions to yourself will help you narrow down your
             search for an online counselor, such as - the concern that you would
@@ -172,12 +189,14 @@ const Aboutus = () => {
             relationships, emotional issues, or others might help.Once you are
             aware of the concern you need assistance with, you can take a look
             at the Counselor's profile and if they have experience and expertise
-            in handling the same issue.BetterLFY has a team of online therapists
+            in handling the same issue.Ignit has a team of online therapists
             that excel in dealing with issues related to marriage, stress &
             anxiety, academics, professional life, friends, parenting, self -
             esteem and confidence and many more.
           </span>
-          <h1 className={style.question}>What to keep in mind during online counseling? </h1>
+          <h1 className={style.question}>
+            What to keep in mind during online counselling?{" "}
+          </h1>
           <span className="m-3">
             Keeping a few things in mind before and during the counselling
             session will help you focus on the concerns you need help with
@@ -190,35 +209,36 @@ const Aboutus = () => {
             before starting the online counselling session, as this will keep
             you from forgetting any important matters you need help with
           </span>
-          <h1 className={style.question}>What is the medium for online therapy? </h1>
+          <h1 className={style.question}>
+            What is the medium for online counselling?{" "}
+          </h1>
           <span className="m-3">
-            Like the various mediums for online therapy used these days,
+            Like the various mediums for online counselling used these days,
             Ignit offers you to choose between video calls, audio calls and
-            chat-based online therapy sessions which is completely safe to use.
+            chat-based online counselling sessions which is completely safe to
+            use.
           </span>
           <h1 className={style.question}>
             Is my information secure and confidential in online counselling?
           </h1>
           <span className="m-3">
-            Yes, online counseling is secure and all your information is
-            confidential. Online counseling setups ensure privacy and
-            confidentiality of a client. Ignit offers anonymous and
-            confidential counselling where the client's records are accessible
-            only by the counsellor and the client. Usually, the portals used for
-            online therapy are HIPAA and FERPA compliant portals such as Zoom
-            (video platform) or tawk.to (chat platform), or Spark (call
-            platform). Though these are not Indian laws, the usual platforms
+            Yes, online counselling is secure and all your information is
+            confidential. Online counselling setups ensure privacy and
+            confidentiality of a client. Ignit offers anonymous and confidential
+            counselling where the client's records are accessible only by the
+            counsellor and the client. Usually, the portals used for online
+            counselling are Zoom and Google Meet. Though these are not Indian laws, the usual platforms
             used for various modes of online counselling in India as well are
             the ones mentioned above and hence have these regulations in place.
           </span>
           <h1 className={style.question}>Is online counselling expensive? </h1>
           <span className="m-3">
-            Online Counseling is not expensive. In fact, it turns out to be less
-            expensive than traditional listed online therapy because it helps
-            you save travel costs and also online therapy sessions at Ignit
-            are more cost-effective. Therefore, online counselling being
-            expensive is not false and online counseling platforms like
-            Ignit offer counselling plans available at various price points.
+            Online counselling is not expensive. In fact, it turns out to be
+            less expensive than traditional listed online counselling because it
+            helps you save travel costs and also online counselling sessions at
+            Ignit are more cost-effective. Therefore, online counselling being
+            expensive is not false and online counselling platforms like Ignit
+            offer counselling plans available at various price points.
           </span>
         </div>
       </div>

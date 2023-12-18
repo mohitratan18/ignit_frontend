@@ -93,3 +93,12 @@ h1{
 .question{
     margin-left: 1.2rem;
 }
+.list{
+    margin: 1.25rem;
+    font-size: 1.75rem;
+}
+@media screen and (max-width:500px) {
+ .list{
+    font-size: 1rem;
+ }   
+}
