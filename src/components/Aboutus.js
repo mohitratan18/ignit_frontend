@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./aboutus.module.css";
 import "./aboutus.module.css";
-import img1 from "../Assests/img1.jpeg";
+// import img1 from "../Assests/img1.jpeg";
 import img2 from "../Assests/img2.jpeg";
 import img3 from "../Assests/img3.jfif";
 import img4 from "../Assests/img4.jpeg";
@@ -17,14 +17,6 @@ const Aboutus = () => {
     <div className={style.container}>
       <h1>ABOUT US</h1>
       <div className={style.mission}>
-        <h1> Our Vision :</h1>
-        <span className={style.missionmatter}>
-          Empowering women to recognize, embrace, and assert their rights,
-          fostering independence through our expert Counsellings and inspiring a
-          transformative perspective on life's possibilities.
-        </span>
-      </div>
-      <div className={style.mission}>
         <span className={style.missionmatter}>
           "Life Skills Matter! Learning essential life skills isn't just a
           lesson for today, it's a roadmap for a successful tomorrow. From
@@ -34,16 +26,30 @@ const Aboutus = () => {
           today, empower your tomorrows!"
         </span>
       </div>
+      <div className={style.mission}>
+        <h1> Our Vision :</h1>
+        <span className={style.missionmatter}>
+          Empowering women to recognize, embrace, and assert their rights,
+          fostering independence through our expert Counsellings and inspiring a
+          transformative perspective on life's possibilities.
+          <br /> Rights can be replaced with Strengths. Independence can be
+          replaced with Individuality.
+          <br />
+          We Provide Real-Time discussions to foster the interactive learning
+          and knowledge sharing with our Webinars.We encourage Community
+          building enhancing both education and social connectivity.
+        </span>
+      </div>
       <div className={style.services}>
         <h1>Our Services</h1>
-        <ol className={style.list}> 
+        <ol className={style.list}>
           <li>* Individual Counselling</li>
           <li>* Premarital Counselling</li>
           <li>* Couple Counselling</li>
           <li>* Family Counselling</li>
-          <li>* Carrer Counselling</li>
+          <li>* Career Counselling</li>
           <li>* Education Counselling</li>
-          <li>* Adolesent Counselling</li>
+          <li>* Adolescent Counselling</li>
           <li>* Ageing Counselling</li>
           <li>* Infertility Counselling</li>
           <li>* De-Addiction Counselling</li>
@@ -98,7 +104,7 @@ const Aboutus = () => {
       </div>
 
       <div className={style.two}>
-        <div className={style.one}>
+        {/* <div className={style.one}>
           <div className={style.subimg}>
             <img className={style.image} src={img1} alt="" />
             <h3>CS.Gontla Amulya</h3>
@@ -117,7 +123,7 @@ const Aboutus = () => {
             Marital Concerns <br />* Couple counselling <br /> * Lifestyle
             Issues
           </span>
-        </div>
+        </div> */}
 
         <div className={style.one}>
           <div className={style.subimg}>
@@ -227,9 +233,10 @@ const Aboutus = () => {
             confidentiality of a client. Ignit offers anonymous and confidential
             counselling where the client's records are accessible only by the
             counsellor and the client. Usually, the portals used for online
-            counselling are Zoom and Google Meet. Though these are not Indian laws, the usual platforms
-            used for various modes of online counselling in India as well are
-            the ones mentioned above and hence have these regulations in place.
+            counselling are Zoom and Google Meet. Though these are not Indian
+            laws, the usual platforms used for various modes of online
+            counselling in India as well are the ones mentioned above and hence
+            have these regulations in place.
           </span>
           <h1 className={style.question}>Is online counselling expensive? </h1>
           <span className="m-3">

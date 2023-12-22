@@ -1,6 +1,6 @@
 import React from "react";
 import Styles from "./aboutall.module.css";
-import img1 from "../Assests/img1.jpeg";
+// import img1 from "../Assests/img1.jpeg";
 import img2 from "../Assests/img2.jpeg";
 import img3 from "../Assests/img3.jfif";
 import img4 from "../Assests/img4.jpeg";
@@ -37,7 +37,7 @@ const Aboutall = () => {
           fuillfillment
         </h4>
       </div>
-      <div className={Styles.item}>
+      {/* <div className={Styles.item}>
         <img src={img1} alt="" className={Styles.image} />
         <h4>
           This is Amulya Rajesh with a unique background of an Advocate and a
@@ -47,7 +47,7 @@ const Aboutall = () => {
           Health Issues and ensure the well-being of my clients by guiding them
           to lead a hurdle free and a happy life.
         </h4>
-      </div>
+      </div> */}
       <div className={Styles.item}>
         <img src={img4} alt="" className={Styles.image} />
         <h4>
