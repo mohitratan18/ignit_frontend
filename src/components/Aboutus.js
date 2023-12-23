@@ -163,10 +163,10 @@ const Aboutus = () => {
             What are webinars, and how often are they conducted?
           </h1>
           <span className="m-3">
-            Basically, our team conducts webinars frequently on various topics.
-            The session links can be found in the meetings box, and after the
-            meeting, they are recorded and provided on the meetings page of the
-            website.
+            Basically, our team conducts webinars frequently on various topics
+            and after the meeting, they are recorded and provided on the
+            meetings page of the website. The session links can be found in the
+            meetings box
           </span>
           <h1 className={style.question}>Who needs Online counselling ?</h1>
           <span className="m-3">
