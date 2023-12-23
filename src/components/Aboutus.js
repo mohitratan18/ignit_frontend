@@ -97,7 +97,7 @@ const Aboutus = () => {
           </div>
           <span className={style.matter}>
             * Teenage Issues <br /> * Career Assesments <br /> * Motivating
-            students <br />* Empowering Students <br /> * Pre-Martial
+            students <br />* Empowering Students <br /> * Pre-Marital
             Counselling <br />* Relationship Counselling
           </span>
         </div>

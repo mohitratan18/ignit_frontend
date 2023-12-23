@@ -26,7 +26,7 @@ const ContactUs = () => {
   return (
     <div className={styles.contactForm}>
       <div className={styles.formContainer}>
-        <h2>Contact Us - +918143995895 - infoignit03@gmail.com</h2>
+        <h2>Contact Us - +917075050124 - infoignit03@gmail.com</h2>
         <form>
           <div className={styles.formGroup}>
             <label htmlFor="name">Name:</label>
