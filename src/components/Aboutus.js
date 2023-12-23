@@ -61,7 +61,7 @@ const Aboutus = () => {
         <div className={style.one}>
           <div className={style.subimg}>
             <img className={style.image} src={img3} alt="" />
-            <h3>SANA PRAVEENA</h3>
+            <h3 className="font-weight-bold">SANA PRAVEENA</h3>
             <h4>Family Counsellor</h4>
             <h4>Lifeskills Coach</h4>
             <h4>Women Empower Coach</h4>
@@ -83,8 +83,9 @@ const Aboutus = () => {
         <div className={style.one}>
           <div className={style.subimg}>
             <img className={style.image} src={img2} alt="" />
-            <h3>Vadlapatla Bhargavi</h3>
-            <h4>STUDENT COUNSELLOR</h4>
+            <h3 className="font-weight-bold">VADLAPATLA BHARGAVI</h3>
+            <h4>Student Counsellor</h4>
+            <h4>Relationship Coach</h4>
             <br />
             <button
               type="button"
@@ -127,8 +128,9 @@ const Aboutus = () => {
         <div className={style.one}>
           <div className={style.subimg}>
             <img className={style.image} src={img4} alt="" />
-            <h3>Jhansi Krishna</h3>
+            <h3 className="font-weight-bold">Jhansi Krishna</h3>
             <h4>STUDENT COUNSELLOR</h4>
+            <h4>Parenting Coach</h4>
             <br />
             <button
               type="button"
@@ -152,10 +154,19 @@ const Aboutus = () => {
           <span className="m-3">
             Yes, you can get counselling online In India and from any part of
             the world with ignit.co.in . Online counselling allows you to take
-            counselling from your therapist from the comfort of your home and at
-            your convenient time. Ignit offers quality counselling online by
+            counselling from your counsellors from the comfort of your home and
+            at your convenient time. Ignit offers quality counselling online by
             trained and experienced listed counsellors which is as effective as
             face-to-face counselling.
+          </span>
+          <h1 className={style.question}>
+            What are webinars, and how often are they conducted?
+          </h1>
+          <span className="m-3">
+            Basically, our team conducts webinars frequently on various topics.
+            The session links can be found in the meetings box, and after the
+            meeting, they are recorded and provided on the meetings page of the
+            website.
           </span>
           <h1 className={style.question}>Who needs Online counselling ?</h1>
           <span className="m-3">
@@ -180,7 +191,7 @@ const Aboutus = () => {
             relationships, emotional issues, or others might help.Once you are
             aware of the concern you need assistance with, you can take a look
             at the Counselor's profile and if they have experience and expertise
-            in handling the same issue.Ignit has a team of online therapists
+            in handling the same issue.Ignit has a team of online consellers
             that excel in dealing with issues related to marriage, stress &
             anxiety, academics, professional life, friends, parenting, self -
             esteem and confidence and many more.
