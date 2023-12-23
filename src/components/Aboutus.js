@@ -143,7 +143,7 @@ const Aboutus = () => {
           <span className={style.matter}>
             * Exam-stress <br /> * Procrastination <br /> * Teenage Issues <br />
             * Student Motivation <br /> * Low self Esteem <br /> * Parent-teen
-            Coach
+            issues
           </span>
         </div>
       </div>

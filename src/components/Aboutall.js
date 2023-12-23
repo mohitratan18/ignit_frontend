@@ -34,7 +34,7 @@ const Aboutall = () => {
           ensuring that clients not only discover their potential but also
           acquire the tools to..thrive in an ever-changing world. With my
           guidance individuals can chart a path to personal and professional
-          fuillfillment
+          fullfillment
         </h4>
       </div>
       {/* <div className={Styles.item}>
@@ -54,7 +54,7 @@ const Aboutall = () => {
           This is Jhansi Krishna a passionate and a dedicated commerce graduate
           with keen interest in guiding students towards successful
           careers.Holds a diploma in psychology guidance and counselling with a
-          deep understanding of human behaviour.Certified Student counsellor
+          deep understanding of human behaviour.As a Certified counsellor
           committed to providing personalized career advice and help individuals
           to navigate their professional journey unlocking their potential and
           achieve their career aspirations.
