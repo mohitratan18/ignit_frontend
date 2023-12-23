@@ -160,7 +160,7 @@ const Aboutus = () => {
             face-to-face counselling.
           </span>
           <h1 className={style.question}>
-            What are webinars, and how often are they conducted?
+            What are webinars, What type of webinars and how often are they conducted?
           </h1>
           <span className="m-3">
             Basically, our team conducts webinars frequently on various topics
