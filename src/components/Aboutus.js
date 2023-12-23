@@ -96,7 +96,7 @@ const Aboutus = () => {
             </button>
           </div>
           <span className={style.matter}>
-            * Teenage Issues <br /> * career Assesments <br /> * Motivating
+            * Teenage Issues <br /> * Career Assesments <br /> * Motivating
             students <br />* Empowering Students <br /> * Pre-Martial
             Counselling <br />* Relationship Counselling
           </span>
@@ -141,7 +141,7 @@ const Aboutus = () => {
             </button>
           </div>
           <span className={style.matter}>
-            * Exam-stress <br /> * Procastination <br /> * Teenage Issues <br />
+            * Exam-stress <br /> * Procrastination <br /> * Teenage Issues <br />
             * Student Motivation <br /> * Low self Esteem <br /> * Parent-teen
             Coach
           </span>
@@ -166,7 +166,7 @@ const Aboutus = () => {
             Basically, our team conducts webinars frequently on various topics
             and after the meeting, they are recorded and provided on the
             meetings page of the website. The session links can be found in the
-            meetings box
+            meetings box.
           </span>
           <h1 className={style.question}>Who needs Online counselling ?</h1>
           <span className="m-3">
@@ -209,7 +209,7 @@ const Aboutus = () => {
             open-minded to sharing the facts with your counsellor. You can also
             write down the key points you want to discuss with the counsellor
             before starting the online counselling session, as this will keep
-            you from forgetting any important matters you need help with
+            you from forgetting any important matters you need help with.
           </span>
           <h1 className={style.question}>
             What is the medium for online counselling?{" "}
