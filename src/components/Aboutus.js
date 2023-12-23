@@ -128,8 +128,8 @@ const Aboutus = () => {
         <div className={style.one}>
           <div className={style.subimg}>
             <img className={style.image} src={img4} alt="" />
-            <h3 className="font-weight-bold">Jhansi Krishna</h3>
-            <h4>STUDENT COUNSELLOR</h4>
+            <h3 className="font-weight-bold">JHANSI KRISHNA</h3>
+            <h4>Student Counsellor</h4>
             <h4>Parenting Coach</h4>
             <br />
             <button
