@@ -76,7 +76,7 @@ const Aboutus = () => {
           </div>
           <span className={style.matter}>
             * Aligns Relationships <br /> * Improves Quality of life <br /> *
-            Women Empowerment <br /> * Adolscent Issues <br /> * Motivational
+            Women Empowerment <br /> * Adolescent Issues <br /> * Motivational
             Speaker <br /> * Couple Counselling{" "}
           </span>
         </div>
@@ -96,7 +96,7 @@ const Aboutus = () => {
             </button>
           </div>
           <span className={style.matter}>
-            * Teenage Issues <br /> * Carrer Assesments <br /> * Motivating
+            * Teenage Issues <br /> * career Assesments <br /> * Motivating
             students <br />* Empowering Students <br /> * Pre-Martial
             Counselling <br />* Relationship Counselling
           </span>
@@ -142,7 +142,7 @@ const Aboutus = () => {
           </div>
           <span className={style.matter}>
             * Exam-stress <br /> * Procastination <br /> * Teenage Issues <br />
-            * Student Motivation <br /> * Low self Esteem <br /> * Paren-teen
+            * Student Motivation <br /> * Low self Esteem <br /> * Parent-teen
             Coach
           </span>
         </div>
