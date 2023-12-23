@@ -29,11 +29,9 @@ const Aboutus = () => {
       <div className={style.mission}>
         <h1> Our Vision :</h1>
         <span className={style.missionmatter}>
-          Empowering women to recognize, embrace, and assert their rights,
-          fostering independence through our expert Counsellings and inspiring a
-          transformative perspective on life's possibilities.
-          <br /> Rights can be replaced with Strengths. Independence can be
-          replaced with Individuality.
+          Empowering women to recognize, embrace, and assert their Strengths,
+          fostering individualtiy through our expert Counsellings and inspiring
+          a transformative perspective on life's possibilities.
           <br />
           We Provide Real-Time discussions to foster the interactive learning
           and knowledge sharing with our Webinars.We encourage Community
@@ -63,10 +61,10 @@ const Aboutus = () => {
         <div className={style.one}>
           <div className={style.subimg}>
             <img className={style.image} src={img3} alt="" />
-            <h3>Sana Praveena</h3>
-            <h4>FAMILY COUNSELLOR</h4>
-            <h4>LIFESKILLS COACH</h4>
-            <h4>WOMEN EMPOWER COACH</h4>
+            <h3>SANA PRAVEENA</h3>
+            <h4>Family Counsellor</h4>
+            <h4>Lifeskills Coach</h4>
+            <h4>Women Empower Coach</h4>
             <br />
             <button
               type="button"
@@ -79,7 +77,7 @@ const Aboutus = () => {
           <span className={style.matter}>
             * Aligns Relationships <br /> * Improves Quality of life <br /> *
             Women Empowerment <br /> * Adolscent Issues <br /> * Motivational
-            Speaker{" "}
+            Speaker <br /> * Couple Counselling{" "}
           </span>
         </div>
         <div className={style.one}>
@@ -98,7 +96,8 @@ const Aboutus = () => {
           </div>
           <span className={style.matter}>
             * Teenage Issues <br /> * Carrer Assesments <br /> * Motivating
-            students <br />* Empowering Students
+            students <br />* Empowering Students <br /> * Pre-Martial
+            Counselling <br />* Relationship Counselling
           </span>
         </div>
       </div>
@@ -141,7 +140,8 @@ const Aboutus = () => {
           </div>
           <span className={style.matter}>
             * Exam-stress <br /> * Procastination <br /> * Teenage Issues <br />
-            * Student Motivation <br /> * Low self Esteem
+            * Student Motivation <br /> * Low self Esteem <br /> * Paren-teen
+            Coach
           </span>
         </div>
       </div>
@@ -151,26 +151,11 @@ const Aboutus = () => {
           <h1 className={style.question}>Can I get counselling online?</h1>
           <span className="m-3">
             Yes, you can get counselling online In India and from any part of
-            the world with Ignit.com.Online counselling allows you to take
+            the world with ignit.co.in . Online counselling allows you to take
             counselling from your therapist from the comfort of your home and at
-            your convenient time.Ignit offers quality counselling online by
-            trained and experienced listed therapists which is as effective as
-            face- to - face counselling.
-          </span>
-          <h1 className={style.question}>
-            What are the advantages of online counselling?
-          </h1>
-          <span className="m-3">
-            There are various advantages when it comes to Online counselling.
-            Accessibility is one of the primary advantages. Because the entire
-            setup is online, one can access counselling from their home. Online
-            counselling also helps with a lot of flexibility when it comes to
-            the timing of an appointment which you can choose as per your
-            convenience by choosing the mode of Psychological Counselling, be it
-            call, video call or chat. Online counselling is also advantageous in
-            terms of finances because you can save the travel & inconvenience
-            costs. You can start your online counselling with IGNIT The most
-            trusted and rated online counselling service provider in India.
+            your convenient time. Ignit offers quality counselling online by
+            trained and experienced listed counsellors which is as effective as
+            face-to-face counselling.
           </span>
           <h1 className={style.question}>Who needs Online counselling ?</h1>
           <span className="m-3">
@@ -220,9 +205,8 @@ const Aboutus = () => {
           </h1>
           <span className="m-3">
             Like the various mediums for online counselling used these days,
-            Ignit offers you to choose between video calls, audio calls and
-            chat-based online counselling sessions which is completely safe to
-            use.
+            Ignit offers Webinars in Google-Meet, Zoom and chat-based online
+            counselling sessions which is completely safe to use.
           </span>
           <h1 className={style.question}>
             Is my information secure and confidential in online counselling?
@@ -233,10 +217,7 @@ const Aboutus = () => {
             confidentiality of a client. Ignit offers anonymous and confidential
             counselling where the client's records are accessible only by the
             counsellor and the client. Usually, the portals used for online
-            counselling are Zoom and Google Meet. Though these are not Indian
-            laws, the usual platforms used for various modes of online
-            counselling in India as well are the ones mentioned above and hence
-            have these regulations in place.
+            counselling are Zoom and Google Meet.
           </span>
           <h1 className={style.question}>Is online counselling expensive? </h1>
           <span className="m-3">
@@ -246,6 +227,21 @@ const Aboutus = () => {
             Ignit are more cost-effective. Therefore, online counselling being
             expensive is not false and online counselling platforms like Ignit
             offer counselling plans available at various price points.
+          </span>
+          <h1 className={style.question}>
+            What are the advantages of online counselling?
+          </h1>
+          <span className="m-3">
+            There are various advantages when it comes to Online counselling.
+            Accessibility is one of the primary advantages. Because the entire
+            setup is online, one can access counselling from their home. Online
+            counselling also helps with a lot of flexibility when it comes to
+            the timing of an appointment which you can choose as per your
+            convenience by choosing the mode of Psychological Counselling, be it
+            call, video call or chat. Online counselling is also advantageous in
+            terms of finances because you can save the travel & inconvenience
+            costs. You can start your online counselling with IGNIT The most
+            trusted and rated online counselling service provider in India.
           </span>
         </div>
       </div>

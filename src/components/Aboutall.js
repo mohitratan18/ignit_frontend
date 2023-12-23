@@ -15,12 +15,12 @@ const Aboutall = () => {
           I feel glad to share that i have a extent background experience in
           teaching across schools and colleges, I bring a wealth of knowledge
           and passion to education. As a life skills and Women Empowerment
-          coach, I extend personalized counseling services to students, guiding
-          them on a path of self-discovery and motivate them. Committed to
-          making a positive impact, I actively contribute to the empowerment of
-          women and adolescent girls. Through a blend of teaching, counseling,
-          and advocacy, I aspire to foster growth and resilience in individuals.
-          Let's embark on this journey together!
+          coach, I extend personalized counseling services to individuals,
+          guiding them on a path of self-discovery and motivate them. Committed
+          to making a positive impact, I actively contribute to the empowerment
+          of women and adolescent girls. Through a blend of teaching,
+          counseling, and advocacy, I aspire to foster growth and resilience in
+          individuals. Let's embark on this journey together!
         </h4>
       </div>
       <div className={Styles.item}>
