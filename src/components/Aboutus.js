@@ -50,8 +50,6 @@ const Aboutus = () => {
           <li>* Adolescent Counselling</li>
           <li>* Ageing Counselling</li>
           <li>* Infertility Counselling</li>
-          <li>* De-Addiction Counselling</li>
-          <li>* Rehabilitation Counselling</li>
         </ol>
         {/* <img src={services} alt="" className={style.serviceimg} /> */}
       </div>
@@ -65,6 +63,7 @@ const Aboutus = () => {
             <h4>Family Counsellor</h4>
             <h4>Lifeskills Coach</h4>
             <h4>Women Empower Coach</h4>
+            <h4>Behavioral Coach</h4>
             <br />
             <button
               type="button"
@@ -141,7 +140,8 @@ const Aboutus = () => {
             </button>
           </div>
           <span className={style.matter}>
-            * Exam-stress <br /> * Procrastination <br /> * Teenage Issues <br />
+            * Exam-stress <br /> * Procrastination <br /> * Teenage Issues{" "}
+            <br />
             * Student Motivation <br /> * Low self Esteem <br /> * Parent-teen
             issues
           </span>
