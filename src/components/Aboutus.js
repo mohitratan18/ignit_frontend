@@ -2,9 +2,9 @@ import React from "react";
 import style from "./aboutus.module.css";
 import "./aboutus.module.css";
 // import img1 from "../Assests/img1.jpeg";
-import img2 from "../Assests/img2.jpeg";
+//mport img2 from "../Assests/img2.jpeg";
 import img3 from "../Assests/img3.jfif";
-import img4 from "../Assests/img4.jpeg";
+//import img4 from "../Assests/img4.jpeg";
 //import img5 from "../Assests/img5.jpeg";
 // import services from "../Assests/services.jpeg";
 import { useNavigate } from "react-router-dom";
@@ -79,7 +79,7 @@ const Aboutus = () => {
             Speaker <br /> * Couple Counselling{" "}
           </span>
         </div>
-        <div className={style.one}>
+        {/* <div className={style.one}>
           <div className={style.subimg}>
             <img className={style.image} src={img2} alt="" />
             <h3 className="font-weight-bold">VADLAPATLA BHARGAVI</h3>
@@ -100,9 +100,9 @@ const Aboutus = () => {
             Counselling <br />* Relationship Counselling
           </span>
         </div>
-      </div>
+      </div> */}
 
-      <div className={style.two}>
+      {/* <div className={style.two}>
         {/* <div className={style.one}>
           <div className={style.subimg}>
             <img className={style.image} src={img1} alt="" />
@@ -124,7 +124,7 @@ const Aboutus = () => {
           </span>
         </div> */}
 
-        <div className={style.one}>
+        {/* <div className={style.one}>
           <div className={style.subimg}>
             <img className={style.image} src={img4} alt="" />
             <h3 className="font-weight-bold">JHANSI KRISHNA</h3>
@@ -145,7 +145,7 @@ const Aboutus = () => {
             * Student Motivation <br /> * Low self Esteem <br /> * Parent-teen
             issues
           </span>
-        </div>
+        </div> */} 
       </div>
       <div className={style.faq}>
         <h1 className="text-black">FAQ's</h1>
