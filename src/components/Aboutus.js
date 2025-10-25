@@ -60,10 +60,10 @@ const Aboutus = () => {
           <div className={style.subimg}>
             <img className={style.image} src={img3} alt="" />
             <h3 className="font-weight-bold">SANA PRAVEENA</h3>
-            <h4>Family Counsellor</h4>
-            <h4>Lifeskills Coach</h4>
-            <h4>Women Empower Coach</h4>
-            <h4>Behavioral Coach</h4>
+            <h4>Psychologist</h4>
+            <h4>Life Coach and Behavioral Therapist.</h4>
+            {/* <h4>Women Empower Coach</h4>
+            <h4>Behavioral Coach</h4> */}
             <br />
             <button
               type="button"
