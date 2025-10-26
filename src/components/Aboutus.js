@@ -63,7 +63,7 @@ const Aboutus = () => {
             <h4>Psychologist</h4>
             <h4>Life Coach and Behavioral Therapist.</h4>
             {/* <h4>Women Empower Coach</h4>
-            <h4>Behavioral Coach</h4> */}
+            <h4>Behavioral Coach</h4>  */}
             <br />
             <button
               type="button"
