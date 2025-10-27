@@ -11,25 +11,22 @@ const Aboutall = () => {
     <div className={Styles.container}>
       <div className={Styles.item}>
         <img src={img3} alt="" className={Styles.image} />
-        <h1 style={{fontSize: "2rem", fontWeight: "bold"}}>Counseling Psychologist | Educator | Life Coach</h1>
-       <h3>(Psycho-Onchologist)</h3>
+        <h1 style={{fontSize: "2rem", fontWeight: "bold"}}>Counseling Psychologist | Educator | Life Coach</h1><br/>
+       <h3 style={{fontSize: "1.5rem", fontWeight: "bold"}}>(Psycho-Onchologist)</h3>
 
-        <h3>"From Classroom to Care rooms-Supporting minds at every stage"</h3>
+        <h3>"From Classroom to Care rooms-Supporting minds at every stage"</h3><br />
 
-        <h3>Student,Family,Grief&Cancer Counseling
-        💛Building emotional strength
-        📩DM for session&collaborations </h3>
+        <h3>Student,Family,Grief&Cancer Counseling💛Building emotional strength📩DM for session&collaborations </h3><br />
 
-        <h3>🎥Sharing tips on Parenting,Guidance,Lifeskills&Wellness Emotional Care</h3>
+        <h3>🎥Sharing tips on Parenting,Guidance,Lifeskills&Wellness Emotional Care</h3><br />
 
-        <h3>Supporting Students,Parents,
-        Cancer Warriors &Families💛</h3>
+        <h3>Supporting Students,Parents,Cancer Warriors &Families💛</h3><br />
 
-      <h3>Educator📚 </h3>
+      <h3>Educator📚 </h3><br />
 
-      <h3>To Inspire⏳ </h3>
-<h3>To Educate📚 </h3>
-<h3>To empower🎯</h3>
+      <h3>To Inspire⏳ </h3><br />
+<h3>To Educate📚 </h3><br />
+<h3>To empower🎯</h3><br />
         <h4>
           I feel glad to share that i have a extent background experience in
           teaching across schools and colleges, I bring a wealth of knowledge
