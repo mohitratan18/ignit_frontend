@@ -11,28 +11,26 @@ const Aboutall = () => {
     <div className={Styles.container}>
       <div className={Styles.item}>
         <img src={img3} alt="" className={Styles.image} />
-        <h4>
-        Counseling Psychologist🎓|Educator📚|Life Coach👩‍🏫
-(Psycho-Onchologist)
+        <h2>Counseling Psychologist | Educator | Life Coach</h2>
+       <h3>(Psycho-Onchologist)</h3>
 
-"From Classroom to Care rooms-Supporting minds at every stage"
+        <h3>"From Classroom to Care rooms-Supporting minds at every stage"</h3>
 
-Student,Family,Grief&Cancer Counseling
-💛Building emotional strength
-📩DM for session&collaborations
+        <h3>Student,Family,Grief&Cancer Counseling
+        💛Building emotional strength
+        📩DM for session&collaborations </h3>
 
-🎥Sharing tips on Parenting,Guidance,Lifeskills&Wellness Emotional Care
+        <h3>🎥Sharing tips on Parenting,Guidance,Lifeskills&Wellness Emotional Care</h3>
 
-Supporting Students,Parents,
-Cancer Warriors &Families💛
+        <h3>Supporting Students,Parents,
+        Cancer Warriors &Families💛</h3>
 
-Educator📚
+      <h3>Educator📚 </h3>
 
-To Inspire⏳
-To Educate📚
-To empower🎯
-        </h4>
-      </div>
+      <h3>To Inspire⏳ </h3>
+<h3>To Educate📚 </h3>
+<h3>To empower🎯</h3>
+        </div>
     </div>
   );
 };
