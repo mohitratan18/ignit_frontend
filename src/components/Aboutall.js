@@ -12,15 +12,25 @@ const Aboutall = () => {
       <div className={Styles.item}>
         <img src={img3} alt="" className={Styles.image} />
         <h4>
-          I feel glad to share that i have a extent background experience in
-          teaching across schools and colleges, I bring a wealth of knowledge
-          and passion to education. As a life skills and Women Empowerment
-          coach, I extend personalized counseling services to individuals,
-          guiding them on a path of self-discovery and motivate them. Committed
-          to making a positive impact, I actively contribute to the empowerment
-          of women and adolescent girls. Through a blend of teaching,
-          counseling, and advocacy, I aspire to foster growth and resilience in
-          individuals. Let's embark on this journey together!
+        Counseling Psychologist🎓|Educator📚|Life Coach👩‍🏫
+(Psycho-Onchologist)
+
+"From Classroom to Care rooms-Supporting minds at every stage"
+
+Student,Family,Grief&Cancer Counseling
+💛Building emotional strength
+📩DM for session&collaborations
+
+🎥Sharing tips on Parenting,Guidance,Lifeskills&Wellness Emotional Care
+
+Supporting Students,Parents,
+Cancer Warriors &Families💛
+
+Educator📚
+
+To Inspire⏳
+To Educate📚
+To empower🎯
         </h4>
       </div>
     </div>

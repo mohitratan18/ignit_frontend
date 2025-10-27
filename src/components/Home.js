@@ -101,7 +101,7 @@ const Home = () => {
                 </Link>
               </div>
             </div>
-            <Link className="" to={"/admin"}>
+            <Link className="" to={"/admin"}> 
               Admin
             </Link>
           </div>
