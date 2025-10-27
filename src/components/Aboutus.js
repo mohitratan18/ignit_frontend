@@ -50,6 +50,7 @@ const Aboutus = () => {
           <li>* Adolescent Counselling</li>
           <li>* Ageing Counselling</li>
           <li>* Infertility Counselling</li>
+          <li>* Grief & Cancer counseling for patients & Caregivers</li>
         </ol>
         {/* <img src={services} alt="" className={style.serviceimg} /> */}
       </div>

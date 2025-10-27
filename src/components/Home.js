@@ -87,7 +87,7 @@ const Home = () => {
                 </Link>
               </div>
               <div className="">
-                <Link to="https://www.youtube.com/@INFOIGNIT03">
+                <Link to="https://www.youtube.com/@praveenasanatalks">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="36"

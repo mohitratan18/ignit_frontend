@@ -11,7 +11,7 @@ const Aboutall = () => {
     <div className={Styles.container}>
       <div className={Styles.item}>
         <img src={img3} alt="" className={Styles.image} />
-        <h2>Counseling Psychologist | Educator | Life Coach</h2>
+        <h1 style={{fontSize: "2rem", fontWeight: "bold"}}>Counseling Psychologist | Educator | Life Coach</h1>
        <h3>(Psycho-Onchologist)</h3>
 
         <h3>"From Classroom to Care rooms-Supporting minds at every stage"</h3>
@@ -30,7 +30,18 @@ const Aboutall = () => {
       <h3>To Inspire⏳ </h3>
 <h3>To Educate📚 </h3>
 <h3>To empower🎯</h3>
-        </div>
+        <h4>
+          I feel glad to share that i have a extent background experience in
+          teaching across schools and colleges, I bring a wealth of knowledge
+          and passion to education. As a life skills and Women Empowerment
+          coach, I extend personalized counseling services to individuals,
+          guiding them on a path of self-discovery and motivate them. Committed
+          to making a positive impact, I actively contribute to the empowerment
+          of women and adolescent girls. Through a blend of teaching,
+          counseling, and advocacy, I aspire to foster growth and resilience in
+          individuals. Let's embark on this journey together!
+        </h4>
+      </div>
     </div>
   );
 };
