@@ -27,7 +27,7 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className="card">
+          {/* <div className="card">
             <img src={img2} className="card-img-top" height="132.5" alt="..." />
             <div className="card-body">
               <h2 className="card-title font-extrabold">Meetings</h2>
@@ -38,7 +38,7 @@ const Home = () => {
                 Open
               </Link>
             </div>
-          </div>
+          </div> */}
 
           <div className="card">
             <img src={img4} height="132.5" className="card-img-top" alt="..." />
@@ -59,7 +59,7 @@ const Home = () => {
             <h3 className="text-2xl"> Connect with Us..</h3>
             <div className="flex justify-center gap-10">
               <div className="">
-                <Link to="https://instagram.com/ignit_power_?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==">
+                <Link to="https://www.instagram.com/sanapraveena?igsh=MXdrcnRhemYxcGM3Mg==">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="36"
@@ -73,7 +73,7 @@ const Home = () => {
                 </Link>
               </div>
               <div className="">
-                <Link to="https://www.facebook.com/ignit.2023?mibextid=ZbWKwL">
+                <Link to="https://www.facebook.com/share/16xqApD4HZ/">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="36"
